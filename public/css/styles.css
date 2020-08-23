@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #29b394;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  height: 15vh;
+}
+
+div form {
+  align-content: center;
+  padding: 50px;
+  margin: 100px;
+}
+
+img {
+  width: 50vw;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+#pac-input {
+  margin: 15px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#pac-input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 850px) {
+  img {
+    display: none;
+  }
+}

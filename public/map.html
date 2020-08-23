@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>PMDC Map</title>
+  </head>
+  <body>
+    <main>
+      <input
+        id="pac-input"
+        class="controls"
+        type="text"
+        placeholder="Search Box"
+      />
+      <div id="map"></div>
+    </main>
+    <script src="map-api.js"></script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS2NpVDZWPbvMQ1apzeRAjIk9qnSUIHO8&libraries=places&callback=initMap"
+    ></script>
+  </body>
+</html>
